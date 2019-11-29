@@ -107,7 +107,7 @@ data_max<-data %>%
 
 #reorder columns 
 data_max<-data_max[,c(2,3,1)]
-colnames(data_max)<-c("Well", "Heat","Time_sec")
+colnames(data_max)<-c("Well", "Heat Flow","Time_sec")
 
 #Order the well names and sample_names
 
